@@ -1,4 +1,4 @@
-def load_input(filename='example.txt'):
+def load_input(filename='input.txt'):
     with open(filename, 'r', encoding='utf-8') as f:
         return [list(map(int, line.split())) for line in f]
 
